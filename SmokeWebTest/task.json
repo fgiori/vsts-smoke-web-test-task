@@ -16,7 +16,7 @@
     "version": {
         "Major": 1,
         "Minor": 5,
-        "Patch": 0
+        "Patch": 1
     },
     "instanceNameFormat": "Smoke Web Test",
     "groups": [
@@ -56,10 +56,8 @@
         }
     ],
     "execution": {
-        "PowerShell": {
-            "target": "$(currentDirectory)\\task.ps1",
-            "argumentFormat": "",
-            "workingDirectory": "$(currentDirectory)"
+        "PowerShell3": {
+            "target": "task.ps1"
         }
     }
 }
